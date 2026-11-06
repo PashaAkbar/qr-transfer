@@ -4,8 +4,9 @@ Offline file transfer between devices using animated QR codes. No server, no net
 
 ## Components
 
+- `web/` — React + Vite web app (sender and receiver), deployed to GitHub Pages by `.github/workflows/web.yml`. Commands in `web/`: `npm run dev`, `npm run build`, `npm run check`.
 - `qr-transfer-tanpa-library.html` — single-file web app, fully offline. **Sender only** (no receive UI, no jsQR). QR encoder (`qrMake`) is hand-written: byte mode, EC level L, version auto-selected.
-- `ios/` — native iOS app (SwiftUI), **receiver and sender**, wire-compatible with the HTML app. Project is defined by `ios/project.yml` (XcodeGen); see `ios/README.md` for build steps.
+- `ios/` — experimental native iOS app (SwiftUI), paused and not deployed. Project defined by `ios/project.yml` (XcodeGen).
 - `graphify-out/` — generated knowledge graph (run `/graphify .` to query it; `graphify update .` after code changes).
 
 ## Wire protocol (must stay compatible)

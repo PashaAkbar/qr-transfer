@@ -1,0 +1,205 @@
+:root {
+  --bg: #f4f6fb;
+  --fg: #12182b;
+  --mut: #5b6479;
+  --card: #fff;
+  --line: #d5dbea;
+  --ac: #2b4cff;
+  --acfg: #fff;
+  --ok: #0a7a4b;
+  --er: #b3261e;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0f1424;
+    --fg: #e8ecf8;
+    --mut: #98a2bd;
+    --card: #182038;
+    --line: #2a3558;
+    --ac: #7d93ff;
+    --acfg: #0f1424;
+    --ok: #5fd9a0;
+    --er: #ff8a80;
+    color-scheme: dark;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font: 16px/1.5 system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  padding-top: env(safe-area-inset-top, 0px);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+main {
+  max-width: 520px;
+  margin: 0 auto;
+  padding: 20px 16px 40px;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin: 0 0 4px;
+  letter-spacing: -0.01em;
+}
+
+p.sub {
+  margin: 0 0 18px;
+  color: var(--mut);
+}
+
+.tabs {
+  display: flex;
+  gap: 6px;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 4px;
+  margin-bottom: 16px;
+}
+
+.tabs button {
+  flex: 1;
+  border: 0;
+  background: none;
+  color: var(--mut);
+  font: inherit;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 9px;
+}
+
+.tabs button[aria-selected='true'] {
+  background: var(--ac);
+  color: var(--acfg);
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 16px;
+}
+
+label {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--mut);
+  margin: 12px 0 4px;
+}
+
+input[type='file'],
+select {
+  width: 100%;
+  font: inherit;
+  color: var(--fg);
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+}
+
+.row > div {
+  flex: 1;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  margin-top: 14px;
+  border: 0;
+  border-radius: 10px;
+  background: var(--ac);
+  color: var(--acfg);
+  font: inherit;
+  font-weight: 600;
+  padding: 12px;
+  cursor: pointer;
+}
+
+.btn.alt {
+  background: none;
+  color: var(--fg);
+  border: 1px solid var(--line);
+}
+
+.btn.link {
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn:disabled,
+.btn[hidden] {
+  opacity: 0.5;
+  cursor: default;
+}
+
+canvas.qr {
+  display: block;
+  width: min(100%, 420px);
+  aspect-ratio: 1;
+  margin: 16px auto 0;
+  image-rendering: pixelated;
+  border-radius: 8px;
+  background: #fff;
+}
+
+video.video {
+  width: 100%;
+  margin-top: 14px;
+  border-radius: 10px;
+  background: #000;
+  max-height: 60vh;
+}
+
+.st {
+  margin: 12px 0 0;
+  color: var(--mut);
+  font-size: 0.95rem;
+  word-break: break-word;
+}
+
+.st.ok {
+  color: var(--ok);
+}
+
+.bar {
+  height: 8px;
+  background: var(--line);
+  border-radius: 99px;
+  margin-top: 12px;
+  overflow: hidden;
+}
+
+.bar i {
+  display: block;
+  height: 100%;
+  width: 0;
+  background: var(--ac);
+  transition: width 0.15s;
+}
+
+button:focus-visible,
+select:focus-visible,
+input:focus-visible,
+a:focus-visible {
+  outline: 3px solid var(--ac);
+  outline-offset: 2px;
+}
+
+[hidden] {
+  display: none !important;
+}
