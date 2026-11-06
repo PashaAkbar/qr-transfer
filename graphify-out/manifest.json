@@ -1,0 +1,93 @@
+{
+  ".commandcode/settings.json": {
+    "mtime": 1793977779.7050683,
+    "seen": 1793978546.6365147,
+    "ast_hash": "6aaf1d36f45ea8eb1e3f891e276ea5e0",
+    "semantic_hash": "6aaf1d36f45ea8eb1e3f891e276ea5e0",
+    "ast_empty": true
+  },
+  "ios/QRTransfer/ContentView.swift": {
+    "mtime": 1793978383.62706,
+    "seen": 1793978546.6365147,
+    "ast_hash": "fa52a944d227f6a2d35242320720c0f6",
+    "semantic_hash": "fa52a944d227f6a2d35242320720c0f6"
+  },
+  "ios/QRTransfer/Models/ChunkAssembler.swift": {
+    "mtime": 1793978383.6290667,
+    "seen": 1793978546.6365147,
+    "ast_hash": "c740594f0bf21526f4f5d3c232d67ec7",
+    "semantic_hash": "c740594f0bf21526f4f5d3c232d67ec7"
+  },
+  "ios/QRTransfer/Models/TransferProtocol.swift": {
+    "mtime": 1793978383.62706,
+    "seen": 1793978546.6365147,
+    "ast_hash": "f2c258a08ff4a3b5fc95ef916ee829ec",
+    "semantic_hash": "f2c258a08ff4a3b5fc95ef916ee829ec"
+  },
+  "ios/QRTransfer/QRTransfer-Bridging-Header.h": {
+    "mtime": 1793978429.4908657,
+    "seen": 1793978546.6365147,
+    "ast_hash": "d0a5d8f5655b4ae03c91e5d719badacc",
+    "semantic_hash": "d0a5d8f5655b4ae03c91e5d719badacc"
+  },
+  "ios/QRTransfer/QRTransferApp.swift": {
+    "mtime": 1793978383.62706,
+    "seen": 1793978546.6365147,
+    "ast_hash": "f9fc02a5bc9f5802a62f40ceb7cbd249",
+    "semantic_hash": "f9fc02a5bc9f5802a62f40ceb7cbd249"
+  },
+  "ios/QRTransfer/Services/CRC32.swift": {
+    "mtime": 1793978383.6290667,
+    "seen": 1793978546.6365147,
+    "ast_hash": "b47a6eb0604953759ea114cb53651242",
+    "semantic_hash": "b47a6eb0604953759ea114cb53651242"
+  },
+  "ios/QRTransfer/Services/Gzip.swift": {
+    "mtime": 1793978487.2022471,
+    "seen": 1793978546.6365147,
+    "ast_hash": "67d115e40c125c5947ff733e98b0bdfc",
+    "semantic_hash": "67d115e40c125c5947ff733e98b0bdfc"
+  },
+  "ios/QRTransfer/Services/QRCodeGenerator.swift": {
+    "mtime": 1793978487.0854037,
+    "seen": 1793978546.6365147,
+    "ast_hash": "c98ef0e25fe35b2d59598494a2ddd356",
+    "semantic_hash": "c98ef0e25fe35b2d59598494a2ddd356"
+  },
+  "ios/QRTransfer/Services/QRScanner.swift": {
+    "mtime": 1793978487.0864046,
+    "seen": 1793978546.6365147,
+    "ast_hash": "a9e8a931df56d1b3902a1bb20386a67e",
+    "semantic_hash": "a9e8a931df56d1b3902a1bb20386a67e"
+  },
+  "ios/QRTransfer/Services/ReceivedFile.swift": {
+    "mtime": 1793978383.6911998,
+    "seen": 1793978546.6365147,
+    "ast_hash": "ff6ea83b6f0d65ac74ca7ee32da926f8",
+    "semantic_hash": "ff6ea83b6f0d65ac74ca7ee32da926f8"
+  },
+  "ios/QRTransfer/Views/CameraPreview.swift": {
+    "mtime": 1793978383.631202,
+    "seen": 1793978546.6420894,
+    "ast_hash": "351d803d50adf82042eae927e74cd974",
+    "semantic_hash": "351d803d50adf82042eae927e74cd974"
+  },
+  "ios/QRTransfer/Views/ReceiveView.swift": {
+    "mtime": 1793978429.492875,
+    "seen": 1793978546.6420894,
+    "ast_hash": "74682ed5f765ac21c9748bb30a6239d2",
+    "semantic_hash": "74682ed5f765ac21c9748bb30a6239d2"
+  },
+  "ios/QRTransfer/Views/SendView.swift": {
+    "mtime": 1793978487.3705428,
+    "seen": 1793978546.6420894,
+    "ast_hash": "f035eb5d73c825a58fdd3346a2868828",
+    "semantic_hash": "f035eb5d73c825a58fdd3346a2868828"
+  },
+  "ios/project.yml": {
+    "mtime": 1793978429.492875,
+    "seen": 1793978546.6420894,
+    "ast_hash": "d6fe4e9553917af31bcc103e8675fb1b",
+    "semantic_hash": "d6fe4e9553917af31bcc103e8675fb1b"
+  }
+}

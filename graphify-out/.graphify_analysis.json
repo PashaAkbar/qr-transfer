@@ -1,0 +1,363 @@
+{
+  "communities": {
+    "0": [
+      "ios_project",
+      "ios_project_base_code_sign_style",
+      "ios_project_base_current_project_version",
+      "ios_project_base_generate_infoplist_file",
+      "ios_project_base_infoplist_key_cfbundledisplayname",
+      "ios_project_base_infoplist_key_nscamerausagedescription",
+      "ios_project_base_infoplist_key_uiapplicationscenemanifest_generation",
+      "ios_project_base_infoplist_key_uilaunchscreen_generation",
+      "ios_project_base_infoplist_key_uisupportedinterfaceorientations",
+      "ios_project_base_marketing_version",
+      "ios_project_base_other_ldflags",
+      "ios_project_base_product_bundle_identifier",
+      "ios_project_base_product_name",
+      "ios_project_base_swift_objc_bridging_header",
+      "ios_project_base_swift_version",
+      "ios_project_base_targeted_device_family",
+      "ios_project_deploymenttarget_ios",
+      "ios_project_name",
+      "ios_project_options",
+      "ios_project_options_bundleidprefix",
+      "ios_project_options_createintermediategroups",
+      "ios_project_options_deploymenttarget",
+      "ios_project_qrtransfer_platform",
+      "ios_project_qrtransfer_settings",
+      "ios_project_qrtransfer_sources",
+      "ios_project_qrtransfer_type",
+      "ios_project_settings",
+      "ios_project_settings_base",
+      "ios_project_sources_path",
+      "ios_project_targets",
+      "ios_project_targets_qrtransfer"
+    ],
+    "1": [
+      "avfoundation",
+      "error",
+      "foundation",
+      "ios_qrtransfer_models_chunkassembler",
+      "ios_qrtransfer_models_chunkassembler_assembledfile",
+      "ios_qrtransfer_models_chunkassembler_assemblyerror",
+      "ios_qrtransfer_models_chunkassembler_assemblyerror_checksummismatch",
+      "ios_qrtransfer_models_chunkassembler_assemblyerror_decompressionfailed",
+      "ios_qrtransfer_models_chunkassembler_assemblyerror_incomplete",
+      "ios_qrtransfer_models_chunkassembler_assemblyerror_missingmetadata",
+      "ios_qrtransfer_models_chunkassembler_chunkassembler_assemble",
+      "ios_qrtransfer_models_chunkassembler_swift_data",
+      "ios_qrtransfer_models_chunkassembler_swift_string",
+      "ios_qrtransfer_models_transferprotocol",
+      "ios_qrtransfer_services_gzip",
+      "ios_qrtransfer_services_gzip_gzip",
+      "ios_qrtransfer_services_gzip_gzip_compress",
+      "ios_qrtransfer_services_gzip_gzip_decompress",
+      "ios_qrtransfer_services_gzip_swift_data",
+      "ios_qrtransfer_services_qrscanner",
+      "ios_qrtransfer_views_camerapreview"
+    ],
+    "2": [
+      "bool",
+      "codable",
+      "equatable",
+      "ios_qrtransfer_models_chunkassembler_chunkassembler",
+      "ios_qrtransfer_models_chunkassembler_chunkassembler_ingest",
+      "ios_qrtransfer_models_chunkassembler_chunkassembler_iscomplete",
+      "ios_qrtransfer_models_chunkassembler_chunkassembler_receivedcount",
+      "ios_qrtransfer_models_chunkassembler_chunkassembler_reset",
+      "ios_qrtransfer_models_chunkassembler_swift_int",
+      "ios_qrtransfer_models_transferprotocol_frame",
+      "ios_qrtransfer_models_transferprotocol_frame_raw",
+      "ios_qrtransfer_models_transferprotocol_meta",
+      "ios_qrtransfer_models_transferprotocol_swift_int",
+      "ios_qrtransfer_models_transferprotocol_swift_string",
+      "ios_qrtransfer_models_transferprotocol_transferprotocol",
+      "ios_qrtransfer_models_transferprotocol_transferprotocol_decodemeta",
+      "ios_qrtransfer_models_transferprotocol_transferprotocol_encodemeta",
+      "ios_qrtransfer_models_transferprotocol_transferprotocol_makesessionid",
+      "ios_qrtransfer_models_transferprotocol_transferprotocol_parse"
+    ],
+    "3": [
+      "app",
+      "ios_qrtransfer_contentview",
+      "ios_qrtransfer_contentview_contentview",
+      "ios_qrtransfer_contentview_contentview_body",
+      "ios_qrtransfer_qrtransferapp",
+      "ios_qrtransfer_qrtransferapp_qrtransferapp",
+      "ios_qrtransfer_qrtransferapp_qrtransferapp_body",
+      "ios_qrtransfer_services_receivedfile",
+      "ios_qrtransfer_views_sendview",
+      "ios_qrtransfer_views_sendview_sendererror",
+      "ios_qrtransfer_views_sendview_sendererror_encodingfailed",
+      "ios_qrtransfer_views_sendview_sendererror_errordescription",
+      "ios_qrtransfer_views_sendview_sendview",
+      "localizederror",
+      "scene",
+      "swiftui",
+      "uniformtypeidentifiers",
+      "view"
+    ],
+    "4": [
+      "double",
+      "ios_qrtransfer_views_receiveview",
+      "ios_qrtransfer_views_receiveview_receivermodel",
+      "ios_qrtransfer_views_receiveview_receivermodel_finish",
+      "ios_qrtransfer_views_receiveview_receivermodel_handle",
+      "ios_qrtransfer_views_receiveview_receivermodel_init",
+      "ios_qrtransfer_views_receiveview_receivermodel_reportexport",
+      "ios_qrtransfer_views_receiveview_receivermodel_reset",
+      "ios_qrtransfer_views_receiveview_receivermodel_sanitize",
+      "ios_qrtransfer_views_receiveview_receivermodel_start",
+      "ios_qrtransfer_views_receiveview_receivermodel_stop",
+      "ios_qrtransfer_views_receiveview_receiveview",
+      "ios_qrtransfer_views_receiveview_receiveview_body",
+      "ios_qrtransfer_views_receiveview_swift_error",
+      "ios_qrtransfer_views_receiveview_swift_string",
+      "ios_qrtransfer_views_receiveview_swift_url",
+      "result"
+    ],
+    "5": [
+      "ios_qrtransfer_views_sendview_sendermodel",
+      "ios_qrtransfer_views_sendview_sendermodel_advance",
+      "ios_qrtransfer_views_sendview_sendermodel_deinit",
+      "ios_qrtransfer_views_sendview_sendermodel_load",
+      "ios_qrtransfer_views_sendview_sendermodel_prepare",
+      "ios_qrtransfer_views_sendview_sendermodel_showcurrentframe",
+      "ios_qrtransfer_views_sendview_sendermodel_start",
+      "ios_qrtransfer_views_sendview_sendermodel_starttimer",
+      "ios_qrtransfer_views_sendview_sendermodel_stop",
+      "ios_qrtransfer_views_sendview_sendview_body",
+      "ios_qrtransfer_views_sendview_swift_data",
+      "ios_qrtransfer_views_sendview_swift_string",
+      "ios_qrtransfer_views_sendview_swift_uiimage",
+      "ios_qrtransfer_views_sendview_swift_url",
+      "observableobject",
+      "timer"
+    ],
+    "6": [
+      "avcaptureconnection",
+      "avcapturemetadataoutput",
+      "avcapturemetadataoutputobjectsdelegate",
+      "avmetadataobject",
+      "ios_qrtransfer_services_qrscanner_qrscanner",
+      "ios_qrtransfer_services_qrscanner_qrscanner_configure",
+      "ios_qrtransfer_services_qrscanner_qrscanner_configureandstart",
+      "ios_qrtransfer_services_qrscanner_qrscanner_fail",
+      "ios_qrtransfer_services_qrscanner_qrscanner_metadataoutput",
+      "ios_qrtransfer_services_qrscanner_qrscanner_start",
+      "ios_qrtransfer_services_qrscanner_qrscanner_stop",
+      "ios_qrtransfer_services_qrscanner_swift_string",
+      "nsobject",
+      "void"
+    ],
+    "7": [
+      "anyclass",
+      "avcapturesession",
+      "avcapturevideopreviewlayer",
+      "context",
+      "ios_qrtransfer_views_camerapreview_camerapreview",
+      "ios_qrtransfer_views_camerapreview_camerapreview_makeuiview",
+      "ios_qrtransfer_views_camerapreview_camerapreview_updateuiview",
+      "ios_qrtransfer_views_camerapreview_previewview",
+      "ios_qrtransfer_views_camerapreview_previewview_layerclass",
+      "ios_qrtransfer_views_camerapreview_previewview_previewlayer",
+      "uiview",
+      "uiviewrepresentable"
+    ],
+    "8": [
+      "cgfloat",
+      "coreimage",
+      "coreimage_cifilterbuiltins",
+      "ios_qrtransfer_services_qrcodegenerator",
+      "ios_qrtransfer_services_qrcodegenerator_qrcodegenerator",
+      "ios_qrtransfer_services_qrcodegenerator_qrcodegenerator_image",
+      "ios_qrtransfer_services_qrcodegenerator_swift_string",
+      "ios_qrtransfer_services_qrcodegenerator_swift_uiimage",
+      "uikit"
+    ],
+    "9": [
+      "filedocument",
+      "filewrapper",
+      "ios_qrtransfer_services_receivedfile_receivedfile",
+      "ios_qrtransfer_services_receivedfile_receivedfile_filewrapper",
+      "ios_qrtransfer_services_receivedfile_receivedfile_init",
+      "ios_qrtransfer_services_receivedfile_swift_data",
+      "readconfiguration",
+      "uttype",
+      "writeconfiguration"
+    ],
+    "10": [
+      "ios_qrtransfer_services_crc32",
+      "ios_qrtransfer_services_crc32_crc32",
+      "ios_qrtransfer_services_crc32_crc32_checksum",
+      "ios_qrtransfer_services_crc32_crc32_hex",
+      "ios_qrtransfer_services_crc32_swift_data",
+      "ios_qrtransfer_services_crc32_swift_string",
+      "uint32"
+    ],
+    "11": [
+      "ios_qrtransfer_qrtransfer_bridging_header",
+      "zlib"
+    ]
+  },
+  "cohesion": {
+    "0": 0.06666666666666667,
+    "1": 0.10476190476190476,
+    "2": 0.1871345029239766,
+    "3": 0.13725490196078433,
+    "4": 0.20588235294117646,
+    "5": 0.20833333333333334,
+    "6": 0.1978021978021978,
+    "7": 0.21212121212121213,
+    "8": 0.2222222222222222,
+    "9": 0.25,
+    "10": 0.42857142857142855,
+    "11": 1.0
+  },
+  "gods": [
+    {
+      "id": "ios_project_settings_base",
+      "label": "base",
+      "degree": 17
+    },
+    {
+      "id": "ios_qrtransfer_views_receiveview_receivermodel",
+      "label": "ReceiverModel",
+      "degree": 16
+    },
+    {
+      "id": "ios_qrtransfer_views_sendview_sendermodel",
+      "label": "SenderModel",
+      "degree": 15
+    },
+    {
+      "id": "ios_qrtransfer_services_qrscanner_qrscanner",
+      "label": "QRScanner",
+      "degree": 12
+    },
+    {
+      "id": "ios_qrtransfer_models_chunkassembler_chunkassembler",
+      "label": "ChunkAssembler",
+      "degree": 11
+    },
+    {
+      "id": "ios_qrtransfer_models_transferprotocol_transferprotocol",
+      "label": "TransferProtocol",
+      "degree": 10
+    },
+    {
+      "id": "ios_qrtransfer_views_camerapreview_previewview",
+      "label": "PreviewView",
+      "degree": 8
+    },
+    {
+      "id": "ios_qrtransfer_models_transferprotocol_meta",
+      "label": "Meta",
+      "degree": 7
+    },
+    {
+      "id": "ios_qrtransfer_views_camerapreview_camerapreview",
+      "label": "CameraPreview",
+      "degree": 7
+    },
+    {
+      "id": "ios_qrtransfer_services_receivedfile_receivedfile",
+      "label": "ReceivedFile",
+      "degree": 7
+    }
+  ],
+  "surprises": [
+    {
+      "source": "ReceiverModel",
+      "target": "ChunkAssembler",
+      "source_files": [
+        "ios/QRTransfer/Views/ReceiveView.swift",
+        "ios/QRTransfer/Models/ChunkAssembler.swift"
+      ],
+      "confidence": "INFERRED",
+      "relation": "calls",
+      "why": "inferred connection - not explicitly stated in source; bridges separate communities"
+    },
+    {
+      "source": "ReceiverModel",
+      "target": "QRScanner",
+      "source_files": [
+        "ios/QRTransfer/Views/ReceiveView.swift",
+        "ios/QRTransfer/Services/QRScanner.swift"
+      ],
+      "confidence": "INFERRED",
+      "relation": "calls",
+      "why": "inferred connection - not explicitly stated in source; bridges separate communities"
+    },
+    {
+      "source": ".body",
+      "target": "ReceiveView",
+      "source_files": [
+        "ios/QRTransfer/ContentView.swift",
+        "ios/QRTransfer/Views/ReceiveView.swift"
+      ],
+      "confidence": "INFERRED",
+      "relation": "calls",
+      "why": "inferred connection - not explicitly stated in source; bridges separate communities"
+    },
+    {
+      "source": ".body",
+      "target": "CameraPreview",
+      "source_files": [
+        "ios/QRTransfer/Views/ReceiveView.swift",
+        "ios/QRTransfer/Views/CameraPreview.swift"
+      ],
+      "confidence": "INFERRED",
+      "relation": "calls",
+      "why": "inferred connection - not explicitly stated in source; bridges separate communities"
+    },
+    {
+      "source": ".body",
+      "target": "ContentView",
+      "source_files": [
+        "ios/QRTransfer/QRTransferApp.swift",
+        "ios/QRTransfer/ContentView.swift"
+      ],
+      "confidence": "INFERRED",
+      "relation": "calls",
+      "why": "inferred connection - not explicitly stated in source"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `ReceiverModel` connect `Community 4` to `Community 9`, `Community 2`, `Community 5`, `Community 6`?",
+      "why": "High betweenness centrality (0.301) - this node is a cross-community bridge."
+    },
+    {
+      "type": "verify_inferred",
+      "question": "Are the 2 inferred relationships involving `ReceiverModel` (e.g. with `ChunkAssembler` and `QRScanner`) actually correct?",
+      "why": "`ReceiverModel` has 2 INFERRED edges - model-reasoned connections that need verification."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `checksumMismatch`, `decompressionFailed`, `incomplete` to the rest of the system?",
+      "why": "13 weakly-connected nodes found - possible missing edges."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 0` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.06666666666666667 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `SenderModel` connect `Community 5` to `Community 3`?",
+      "why": "High betweenness centrality (0.161) - this node is a cross-community bridge."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 1` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.10476190476190476 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `ChunkAssembler` connect `Community 2` to `Community 1`, `Community 4`?",
+      "why": "High betweenness centrality (0.159) - this node is a cross-community bridge."
+    }
+  ]
+}

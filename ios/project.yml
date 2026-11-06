@@ -1,0 +1,34 @@
+name: QRTransfer
+
+options:
+  bundleIdPrefix: com.qrtransfer
+  createIntermediateGroups: true
+  deploymentTarget:
+    iOS: "17.0"
+
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    CODE_SIGN_STYLE: Automatic
+
+targets:
+  QRTransfer:
+    type: application
+    platform: iOS
+    sources:
+      - path: QRTransfer
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.qrtransfer.app
+        PRODUCT_NAME: QRTransfer
+        MARKETING_VERSION: "1.0"
+        CURRENT_PROJECT_VERSION: "1"
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: "QR Transfer"
+        INFOPLIST_KEY_NSCameraUsageDescription: "Kamera dipakai untuk memindai QR berisi file yang dikirim dari perangkat lain."
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
+        INFOPLIST_KEY_UISupportedInterfaceOrientations: UIInterfaceOrientationPortrait
+        TARGETED_DEVICE_FAMILY: "1,2"
+        SWIFT_OBJC_BRIDGING_HEADER: QRTransfer/QRTransfer-Bridging-Header.h
+        OTHER_LDFLAGS: "-lz"
