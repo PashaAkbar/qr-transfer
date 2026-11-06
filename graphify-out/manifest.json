@@ -89,5 +89,179 @@
     "seen": 1793978546.6420894,
     "ast_hash": "d6fe4e9553917af31bcc103e8675fb1b",
     "semantic_hash": "d6fe4e9553917af31bcc103e8675fb1b"
+  },
+  ".github/workflows/ios.yml": {
+    "mtime": 1793978737.5279365,
+    "seen": 1793981144.4619145,
+    "ast_hash": "1884107db74c3f9ab0e9cb48a1a1422f",
+    "semantic_hash": ""
+  },
+  ".github/workflows/web.yml": {
+    "mtime": 1793980887.8491938,
+    "seen": 1793981144.4619145,
+    "ast_hash": "fac9f729588954b572def625082e9f60",
+    "semantic_hash": ""
+  },
+  "web/package.json": {
+    "mtime": 1793980859.0319748,
+    "seen": 1793981144.4619145,
+    "ast_hash": "533468200c34be60edc18b5ee65c4d8b",
+    "semantic_hash": ""
+  },
+  "web/scripts/protocol-check.mjs": {
+    "mtime": 1793980859.0319748,
+    "seen": 1793981144.4619145,
+    "ast_hash": "afeff4963cba9545cb152ed2750c838c",
+    "semantic_hash": ""
+  },
+  "web/src/App.jsx": {
+    "mtime": 1793980739.6413429,
+    "seen": 1793981144.4619145,
+    "ast_hash": "f908cc8c4d55e8434cbef5b0f49fe595",
+    "semantic_hash": ""
+  },
+  "web/src/components/ReceivePanel.jsx": {
+    "mtime": 1793980773.6997018,
+    "seen": 1793981144.4619145,
+    "ast_hash": "e5c36a1ed645f51cb1e01d767dc9a197",
+    "semantic_hash": ""
+  },
+  "web/src/components/SendPanel.jsx": {
+    "mtime": 1793980773.6951087,
+    "seen": 1793981144.4619145,
+    "ast_hash": "0671af3104d9336b52f7bbff6b5392d8",
+    "semantic_hash": ""
+  },
+  "web/src/hooks/useReceiver.js": {
+    "mtime": 1793980843.0220034,
+    "seen": 1793981144.4619145,
+    "ast_hash": "8691bf51bd5bfc7e3bbc9e300a6c12f0",
+    "semantic_hash": ""
+  },
+  "web/src/hooks/useSender.js": {
+    "mtime": 1793980773.6951087,
+    "seen": 1793981144.4619145,
+    "ast_hash": "69fd956aee39ced031664907047d4534",
+    "semantic_hash": ""
+  },
+  "web/src/lib/codec.js": {
+    "mtime": 1793980739.6443448,
+    "seen": 1793981144.4619145,
+    "ast_hash": "f5fac25ad45db98aa2bebb1b90b98e51",
+    "semantic_hash": ""
+  },
+  "web/src/lib/protocol.js": {
+    "mtime": 1793980739.6403425,
+    "seen": 1793981144.4619145,
+    "ast_hash": "4c8b87cb05277ef87a9ea87d9046944b",
+    "semantic_hash": ""
+  },
+  "web/src/lib/qrMake.js": {
+    "mtime": 1793980739.6413429,
+    "seen": 1793981144.4619145,
+    "ast_hash": "f6da7ac9fc2943fbc96e437329b6e360",
+    "semantic_hash": ""
+  },
+  "web/src/main.jsx": {
+    "mtime": 1793980739.638342,
+    "seen": 1793981144.4619145,
+    "ast_hash": "099ea7d062498c35a862fb1a0ca19fac",
+    "semantic_hash": ""
+  },
+  "web/vite.config.js": {
+    "mtime": 1793980739.6443448,
+    "seen": 1793981144.4619145,
+    "ast_hash": "8f8a9c314fa11ac1a019fe94d25485b8",
+    "semantic_hash": ""
+  },
+  ".commandcode/rules/agents.md": {
+    "mtime": 1793977877.6778164,
+    "seen": 1793981144.4619145,
+    "ast_hash": "10d23b86c14ef061374066a55faf35e1",
+    "semantic_hash": ""
+  },
+  ".commandcode/rules/coding-style.md": {
+    "mtime": 1793977878.024333,
+    "seen": 1793981144.4619145,
+    "ast_hash": "4b5e30879949693a07774266651d2663",
+    "semantic_hash": ""
+  },
+  ".commandcode/rules/git-workflow.md": {
+    "mtime": 1793977878.353116,
+    "seen": 1793981144.4619145,
+    "ast_hash": "70986bc29c98d4419f708ff5e4041560",
+    "semantic_hash": ""
+  },
+  ".commandcode/rules/hooks.md": {
+    "mtime": 1793977878.750007,
+    "seen": 1793981144.4619145,
+    "ast_hash": "e5846bc39905e9bfc7db0cf7ec11f0bf",
+    "semantic_hash": ""
+  },
+  ".commandcode/rules/patterns.md": {
+    "mtime": 1793977879.1367033,
+    "seen": 1793981144.4619145,
+    "ast_hash": "877f044ea415ce223d5f6273d0e4fc91",
+    "semantic_hash": ""
+  },
+  ".commandcode/rules/performance.md": {
+    "mtime": 1793977879.493378,
+    "seen": 1793981144.4619145,
+    "ast_hash": "e9d24127324703495ffac38be1d75d1c",
+    "semantic_hash": ""
+  },
+  ".commandcode/rules/security.md": {
+    "mtime": 1793977879.868071,
+    "seen": 1793981144.4619145,
+    "ast_hash": "d7ac29bfa85bbc53c47c4533dcd8141a",
+    "semantic_hash": ""
+  },
+  ".commandcode/rules/testing.md": {
+    "mtime": 1793977880.200111,
+    "seen": 1793981144.4619145,
+    "ast_hash": "a9f87af8e232735e449bb473382e7d7f",
+    "semantic_hash": ""
+  },
+  ".commandcode/taste/taste.md": {
+    "mtime": 1793978091.8160393,
+    "seen": 1793981144.4619145,
+    "ast_hash": "1d34b5c5620ac706d646a2a2a837280e",
+    "semantic_hash": ""
+  },
+  "AGENTS.md": {
+    "mtime": 1793980887.8512638,
+    "seen": 1793981144.4619145,
+    "ast_hash": "43fe7763ee7699b7a6b2d7018a95f0ad",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1793980887.8491938,
+    "seen": 1793981144.4619145,
+    "ast_hash": "a2f2a4984de9a41de4541d2fdb195562",
+    "semantic_hash": ""
+  },
+  "ios/README.md": {
+    "mtime": 1793978737.490947,
+    "seen": 1793981144.4619145,
+    "ast_hash": "5e71cba6169ac0ff914a2f16b39d17d1",
+    "semantic_hash": ""
+  },
+  "qr-transfer-tanpa-library.html": {
+    "mtime": 1793978287.7521253,
+    "seen": 1793981144.4619145,
+    "ast_hash": "639cba70a109060ba7db564b93f28daf",
+    "semantic_hash": ""
+  },
+  "web/index.html": {
+    "mtime": 1793980739.6403425,
+    "seen": 1793981144.4619145,
+    "ast_hash": "fcc5d515522817fb6ffce2eea0ddb8a4",
+    "semantic_hash": ""
+  },
+  "web/package-lock.json": {
+    "mtime": 1793980816.9514012,
+    "seen": 1793981144.4619145,
+    "ast_hash": "c7968f98e626258f9965a94459c38b82",
+    "semantic_hash": ""
   }
 }

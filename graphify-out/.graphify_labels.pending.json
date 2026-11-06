@@ -1,0 +1,16 @@
+{
+  "0": "base",
+  "1": "ChunkAssembler",
+  "2": "protocol.js",
+  "3": "steps",
+  "4": "ReceiverModel",
+  "5": "SenderModel",
+  "6": "QRScanner",
+  "7": "PreviewView",
+  "8": "QRCodeGenerator.swift",
+  "9": "ReceivedFile",
+  "10": "package.json",
+  "11": "QRTransfer-Bridging-Header.h",
+  "12": "steps",
+  "13": "web.yml"
+}
